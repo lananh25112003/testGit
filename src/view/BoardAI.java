@@ -151,11 +151,11 @@ public final class BoardAI extends javax.swing.JFrame {
 
         lbAvartar2.setBackground(new java.awt.Color(255, 153, 153));
         lbAvartar2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMG/3 (1).png"))); // NOI18N
-        lbAvartar2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 153, 153), 2));
+        lbAvartar2.setBorder(null);
 
         lbAvartar1.setBackground(new java.awt.Color(255, 153, 153));
         lbAvartar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMG/1 (1).png"))); // NOI18N
-        lbAvartar1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 153, 153), 2));
+        lbAvartar1.setBorder(null);
 
         lbTen1.setText("Bình");
 

@@ -60,20 +60,20 @@ public class Register extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Tên đăng nhập:");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 160, -1, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 170, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Mật khẩu:");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 210, -1, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 240, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Nickname:");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 260, -1, -1));
-        getContentPane().add(txttendangnhap, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 160, 190, -1));
-        getContentPane().add(txtmatkhau, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 210, 190, -1));
-        getContentPane().add(txtnickname, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 260, 190, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 310, -1, -1));
+        getContentPane().add(txttendangnhap, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 170, 190, -1));
+        getContentPane().add(txtmatkhau, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 230, 190, -1));
+        getContentPane().add(txtnickname, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 300, 190, -1));
 
         btndangky.setText("ĐĂNG KÝ");
         btndangky.addActionListener(new java.awt.event.ActionListener() {
@@ -81,7 +81,7 @@ public class Register extends javax.swing.JFrame {
                 btndangkyActionPerformed(evt);
             }
         });
-        getContentPane().add(btndangky, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 460, 130, -1));
+        getContentPane().add(btndangky, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 430, 130, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMG/nenDangKy.jpg"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 590));
