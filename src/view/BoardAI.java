@@ -294,7 +294,7 @@ public final class BoardAI extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
- private void handleClickButton(Point point) {
+    private void handleClickButton(Point point) {
 
         // TODO: CALC LOGIC HERE
         point.log();
@@ -350,13 +350,13 @@ public final class BoardAI extends javax.swing.JFrame {
     
     private void displayUserWin(){
         String tmp = jTextArea1.getText();
-        tmp+="--Bạn đã thắng";
+        tmp+="-Bạn đã thắng";
         jTextArea1.setText(tmp);
         jTextArea1.setCaretPosition(jTextArea1.getDocument().getLength());
     }
     private void displayAIWin(){
         String tmp = jTextArea1.getText();
-        tmp+="--Máy thắng";
+        tmp+="-Máy thắng";
         jTextArea1.setText(tmp);
         jTextArea1.setCaretPosition(jTextArea1.getDocument().getLength());
     }
